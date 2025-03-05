@@ -1,0 +1,52 @@
+GeneralSettings:
+  Token: "Discord Token Here"
+  LicenseKey: "Your Licence Key - get here panel.bloomauth.com"
+  CustomerRole: "" # (Role ID) Leave blank to disable
+  EmbedColor: "Aqua"
+
+DatabaseSettings:
+  Uri: "mongodb://127.0.0.1:27017/databasename"
+
+LicenseSettings:
+  ApiPort: 8080
+  SecretKey: "f!DuFfasdfasK5%=vcG,wkqremeadsgqeON6yn@.rp^&W_eqafdas-H$aT8*ArU(gY:32y9" # Encrypt key (48 characters or more) Do not include forward or backslashes!!
+  PublicApiKey: "Your-Public-Api-Key" # Public API Key (use this for the /api/client endpoint)
+  SecretApiKey: "Your-Private-Api-Key" # Use this for the developer api
+
+WebhookLogs:
+  Auth: "" # invalid license validation, license validated etc... | leave blank to disable
+  Commands: "" # product or license created/deleted | leave blank to disable
+
+CommandsSettings:
+  Product:
+    Enabled: true
+    Permissions:
+      - "1123820927159914496"
+  License:
+    Enabled: true
+    Permissions:
+      - "1123820927159914496"
+  Mylicenses:
+    Enabled: true
+    Permissions:
+      - "1123820927159914496"
+  Stats:
+    Enabled: true
+    Permissions:
+      - "1123820927159914496"
+  Clearmyips:
+    Enabled: true
+    Permissions:
+      - "1123820927159914496"
+  Clearmyhwids:
+    Enabled: true
+    Permissions:
+      - "1123820927159914496"
+  Blacklist:
+    Enabled: true
+    Permissions:
+      - "1123820927159914496"
+  Download:
+    Enabled: true
+    Permissions:
+      - "1135741130001096834"
